@@ -1,0 +1,343 @@
+
+What is a data structure?
+A programming language
+A collection of algorithms
+A way to store and organize data
+A type of computer hardware
+C
+
+What are the disadvantages of arrays?
+Index value of an array can be negative
+Elements are sequentially accessed
+Data structure like queue or stack cannot be implemented
+There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size
+D
+
+Which data structure is used for implementing recursion?
+Stack
+Queue
+List
+Array
+A
+
+The data structure required to check whether an expression contains a balanced parenthesis is?
+Queue
+Stack
+Tree
+Array
+B
+
+The data structure required to check whether an expression contains a balanced parenthesis is?
+Queue
+Stack
+Tree
+Array
+B
+
+Which of the following is not the application of stack?
+Data Transfer between two asynchronous process
+Compiler Syntax Analyzer
+Tracking of local variables at run time
+A parentheses balancing program
+A
+
+Which data structure is needed to convert infix notation to postfix notation?
+Tree
+Branch
+Stack
+Queue
+C
+
+What is the value of the postfix expression 6 3 2 4 + – *?
+74
+-18
+22
+40
+B
+
+What data structure would you mostly likely see in non recursive implementation of a recursive algorithm?
+Stack
+Linked List
+Tree
+Queue
+A
+
+The data structure required for Breadth First Traversal on a graph is?
+Array
+Stack
+Tree
+Queue
+D
+
+The prefix form of A-B/ (C * D ^ E) is?
+-A/B*C^DE
+-A/BC*^DE
+-ABCD*^DE
+-/*^ACBDE
+A
+
+Which data structure is based on the Last In First Out (LIFO) principle?
+Tree
+Linked List
+Stack
+Queue
+C
+
+Which of the following application makes use of a circular linked list?
+Recursive function calls
+Undo operation in a text editor
+Implement Hash Tables
+Allocating CPU to resources
+D
+
+What is a bit array?
+Data structure that compactly stores bits
+Data structure for representing arrays of records
+Array in which elements are not present in continuous locations
+An array in which most of the elements have the same value
+A
+
+Which of the following tree data structures is not a balanced binary tree?
+Splay tree
+B-tree
+AVL tree
+Red-black tree
+B
+
+Which of the following is not the type of queue?
+Priority queue
+Circular queue
+Single ended queue
+Ordinary queue
+C
+
+Which of the following data structures can be used for parentheses matching?
+n-ary tree
+queue
+priority queue
+stack
+D
+
+Which algorithm is used in the top tree data structure?
+Backtracking
+Divide and Conquer
+Branch
+Greedy
+B
+
+What is the need for a circular queue?
+easier computations
+implement LIFO principle in queues
+effective usage of memory
+to delete elements based on priority
+C
+
+Which of the following is the most widely used external memory data structure?
+B-tree
+Red-black tree
+AVL tree
+Both AVL tree and Red-black tree
+A
+
+Which of the following is also known as Rope data structure?
+Linked List
+Array
+String
+Cord
+D
+
+Which of the following data structure can provide efficient searching of the elements?
+binary search tree
+unordered lists
+2-3 tree
+treap
+C
+
+What is an AVL tree?
+a tree which is unbalanced and is a height balanced tree
+a tree which is balanced and is a height balanced tree
+a tree with atmost 3 children
+a tree with three children
+B
+
+What is the time complexity for searching a key or integer in Van Emde Boas data structure?
+O (M!)
+O (log M!)
+O (log (log M))
+O (M2)
+C
+
+The optimal data structure used to solve Tower of Hanoi is _________
+Tree
+Heap
+Priority queue
+Stack
+D
+
+What is the use of the bin data structure?
+to have efficient traversal
+to have efficient region query
+to have efficient deletion
+to have efficient insertion
+B
+
+Which is the most appropriate data structure for reversing a word?
+stack
+queue
+graph
+tree
+A
+
+Which of the following is the simplest data structure that supports range searching?
+AA-trees
+K-d trees
+Heaps
+binary search trees
+C
+
+What is the advantage of a hash table as a data structure?
+easy to implement
+faster access of data
+exhibit good locality of reference
+very efficient for less number of entries
+B
+
+Which type of data structure is a ternary heap?
+Hash
+Array
+Priority Stack
+Priority Queue
+D
+
+What is a dequeue?
+A queue implemented with both singly and doubly linked lists
+A queue with insert/delete defined for front side of the queue
+A queue with insert/delete defined for both front and rear ends of the queue
+A queue implemented with a doubly linked list
+C
+
+A data structure in which elements can be inserted or deleted at/from both ends but not in the middle is?
+Priority queue
+Dequeue
+Circular queue
+Queue
+B
+
+Which one of the following is an application of Queue Data Structure?
+When a resource is shared among multiple consumers.
+When data is transferred asynchronously (data not necessarily received at same rate as sent) between two processes
+Load Balancing
+All of the above
+D
+
+In simple chaining, what data structure is appropriate?
+Doubly linked list
+Circular linked list
+Singly linked list
+Binary trees
+A
+
+Which one of the following is an application of Stack Data Structure?
+Managing function calls
+The stock span problem
+Arithmetic expression evaluation
+All of the above
+D
+
+Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?
+Insertion Sort
+Quick Sort
+Heap Sort
+Merge Sort
+D
+
+Given a hash table T with 25 slots that stores 2000 elements, the load factor α for T is __________
+80
+0.0125
+8000
+1.25
+D
+
+The minimum number of stacks needed to implement a queue is
+3
+1
+2
+4
+C
+
+The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5, 15, 12, 16. What is the height of the binary search tree (the height is the maximum distance of a leaf node from the root)?
+2
+3
+4
+6
+B
+
+In a file which contains 1 million records and the order of the tree is 100, then what is the maximum number of nodes to be accessed if B+ tree index is used?
+5
+4
+3
+10
+B
+
+Trie is also known as _____
+Treap
+Binomial Tree
+2-3 Tree
+Digital Tree   
+D
+
+In a max-heap, element with the greatest key is always in the which node?
+Leaf node
+First node of left sub tree
+root node
+First node of right sub tree
+C
+
+What is the complexity of adding an element to the heap.
+O(log n)
+O(h)
+O(log n) & O(h)
+O(n)
+C
+
+How many children does a binary tree have?
+2
+any number of children
+0 or 1 or 2
+0 or 1
+C
+
+How many child nodes does each node of Ternary Tree contain?
+4
+6
+5
+3
+D
+
+What is the depth of the root node of the ternary tree?
+2
+1
+0
+3
+C
+
+What is the Height of the root node of ternary tree?
+1
+2
+3
+0
+D
+
+What must be the ideal size of array if the height of tree is 'l'?
+2l-1
+l-1
+l
+2l
+A
+
+What are the children for node 'w' of a complete-binary tree in an array representation?
+2w and 2w+1
+2+w and 2-w
+w+1/2 and w/2
+w-1/2 and w+1/2
+A
