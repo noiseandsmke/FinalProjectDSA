@@ -1,0 +1,140 @@
+
+Which of the following is also known as Rope data structure?
+Linked List
+Array
+String
+Cord
+D
+
+Which data structure is based on the Last In First Out (LIFO) principle?
+Tree
+Linked List
+Stack
+Queue
+C
+
+The data structure required to check whether an expression contains a balanced parenthesis is?
+Queue
+Stack
+Tree
+Array
+B
+
+Which of the following tree data structures is not a balanced binary tree?
+Splay tree
+B-tree
+AVL tree
+Red-black tree
+B
+
+Which is the most appropriate data structure for reversing a word?
+stack
+queue
+graph
+tree
+A
+
+What are the children for node 'w' of a complete-binary tree in an array representation?
+2w and 2w+1
+2+w and 2-w
+w+1/2 and w/2
+w-1/2 and w+1/2
+A
+
+Which data structure is used for implementing recursion?
+Stack
+Queue
+List
+Array
+A
+
+What must be the ideal size of array if the height of tree is 'l'?
+2l-1
+l-1
+l
+2l
+A
+
+What data structure would you mostly likely see in non recursive implementation of a recursive algorithm?
+Stack
+Linked List
+Tree
+Queue
+A
+
+What are the disadvantages of arrays?
+Index value of an array can be negative
+Elements are sequentially accessed
+Data structure like queue or stack cannot be implemented
+There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size
+D
+
+Which one of the following is an application of Queue Data Structure?
+When a resource is shared among multiple consumers.
+When data is transferred asynchronously (data not necessarily received at same rate as sent) between two processes
+Load Balancing
+All of the above
+D
+
+Trie is also known as _____
+Treap
+Binomial Tree
+2-3 Tree
+Digital Tree   
+D
+
+The data structure required to check whether an expression contains a balanced parenthesis is?
+Queue
+Stack
+Tree
+Array
+B
+
+What is a bit array?
+Data structure that compactly stores bits
+Data structure for representing arrays of records
+Array in which elements are not present in continuous locations
+An array in which most of the elements have the same value
+A
+
+Which of the following is the most widely used external memory data structure?
+B-tree
+Red-black tree
+AVL tree
+Both AVL tree and Red-black tree
+A
+
+The minimum number of stacks needed to implement a queue is
+3
+1
+2
+4
+C
+
+What is the complexity of adding an element to the heap.
+O(log n)
+O(h)
+O(log n) & O(h)
+O(n)
+C
+
+In a file which contains 1 million records and the order of the tree is 100, then what is the maximum number of nodes to be accessed if B+ tree index is used?
+5
+4
+3
+10
+B
+
+How many children does a binary tree have?
+2
+any number of children
+0 or 1 or 2
+0 or 1
+C
+
+In simple chaining, what data structure is appropriate?
+Doubly linked list
+Circular linked list
+Singly linked list
+Binary trees
+A
