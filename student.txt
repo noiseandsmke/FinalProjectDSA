@@ -198,3 +198,203 @@ Singly linked list
 Binary trees
 A
 A
+
+In a file which contains 1 million records and the order of the tree is 100, then what is the maximum number of nodes to be accessed if B+ tree index is used?
+5
+4
+3
+10
+B
+B
+
+Which of the following is the most widely used external memory data structure?
+B-tree
+Red-black tree
+AVL tree
+Both AVL tree and Red-black tree
+A
+A
+
+Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?
+Insertion Sort
+Quick Sort
+Heap Sort
+Merge Sort
+D
+D
+
+What is the use of the bin data structure?
+to have efficient traversal
+to have efficient region query
+to have efficient deletion
+to have efficient insertion
+B
+B
+
+Which algorithm is used in the top tree data structure?
+Backtracking
+Divide and Conquer
+Branch
+Greedy
+B
+B
+
+Which of the following data structure can provide efficient searching of the elements?
+binary search tree
+unordered lists
+2-3 tree
+treap
+C
+C
+
+How many child nodes does each node of Ternary Tree contain?
+4
+6
+5
+3
+D
+A
+
+Which data structure is used for implementing recursion?
+Stack
+Queue
+List
+Array
+A
+D
+
+Which of the following is also known as Rope data structure?
+Linked List
+Array
+String
+Cord
+D
+A
+
+What must be the ideal size of array if the height of tree is 'l'?
+2l-1
+l-1
+l
+2l
+A
+D
+
+The data structure required for Breadth First Traversal on a graph is?
+Array
+Stack
+Tree
+Queue
+D
+D
+
+Which one of the following is an application of Stack Data Structure?
+Managing function calls
+The stock span problem
+Arithmetic expression evaluation
+All of the above
+D
+C
+
+What is the depth of the root node of the ternary tree?
+2
+1
+0
+3
+C
+A
+
+Which of the following is not the application of stack?
+Data Transfer between two asynchronous process
+Compiler Syntax Analyzer
+Tracking of local variables at run time
+A parentheses balancing program
+A
+D
+
+In a max-heap, element with the greatest key is always in the which node?
+Leaf node
+First node of left sub tree
+root node
+First node of right sub tree
+C
+D
+
+Which of the following application makes use of a circular linked list?
+Recursive function calls
+Undo operation in a text editor
+Implement Hash Tables
+Allocating CPU to resources
+D
+D
+
+The minimum number of stacks needed to implement a queue is
+3
+1
+2
+4
+C
+C
+
+What is the complexity of adding an element to the heap.
+O(log n)
+O(h)
+O(log n) & O(h)
+O(n)
+C
+C
+
+Which one of the following is an application of Stack Data Structure?
+Managing function calls
+The stock span problem
+Arithmetic expression evaluation
+All of the above
+D
+D
+
+What is the time complexity for searching a key or integer in Van Emde Boas data structure?
+O (M!)
+O (log M!)
+O (log (log M))
+O (M2)
+C
+C
+
+How many child nodes does each node of Ternary Tree contain?
+4
+6
+5
+3
+D
+A
+
+What data structure would you mostly likely see in non recursive implementation of a recursive algorithm?
+Stack
+Linked List
+Tree
+Queue
+A
+A
+
+The prefix form of A-B/ (C * D ^ E) is?
+-A/B*C^DE
+-A/BC*^DE
+-ABCD*^DE
+-/*^ACBDE
+A
+A
+
+Which data structure is based on the Last In First Out (LIFO) principle?
+Tree
+Linked List
+Stack
+Queue
+C
+A
+
+Which of the following is also known as Rope data structure?
+Linked List
+Array
+String
+Cord
+D
+A
