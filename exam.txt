@@ -1,25 +1,4 @@
 
-Which of the following application makes use of a circular linked list?
-Recursive function calls
-Undo operation in a text editor
-Implement Hash Tables
-Allocating CPU to resources
-D
-
-The minimum number of stacks needed to implement a queue is
-3
-1
-2
-4
-C
-
-What is the complexity of adding an element to the heap.
-O(log n)
-O(h)
-O(log n) & O(h)
-O(n)
-C
-
 Which one of the following is an application of Stack Data Structure?
 Managing function calls
 The stock span problem
@@ -27,12 +6,12 @@ Arithmetic expression evaluation
 All of the above
 D
 
-What is the time complexity for searching a key or integer in Van Emde Boas data structure?
-O (M!)
-O (log M!)
-O (log (log M))
-O (M2)
-C
+Which algorithm is used in the top tree data structure?
+Backtracking
+Divide and Conquer
+Branch
+Greedy
+B
 
 How many child nodes does each node of Ternary Tree contain?
 4
@@ -41,25 +20,18 @@ How many child nodes does each node of Ternary Tree contain?
 3
 D
 
-What data structure would you mostly likely see in non recursive implementation of a recursive algorithm?
-Stack
-Linked List
+The optimal data structure used to solve Tower of Hanoi is _________
 Tree
-Queue
-A
-
-The prefix form of A-B/ (C * D ^ E) is?
--A/B*C^DE
--A/BC*^DE
--ABCD*^DE
--/*^ACBDE
-A
-
-Which data structure is based on the Last In First Out (LIFO) principle?
-Tree
-Linked List
+Heap
+Priority queue
 Stack
-Queue
+D
+
+Which of the following is the simplest data structure that supports range searching?
+AA-trees
+K-d trees
+Heaps
+binary search trees
 C
 
 Which of the following is also known as Rope data structure?
@@ -68,6 +40,34 @@ Array
 String
 Cord
 D
+
+Which type of data structure is a ternary heap?
+Hash
+Array
+Priority Stack
+Priority Queue
+D
+
+What is a data structure?
+A programming language
+A collection of algorithms
+A way to store and organize data
+A type of computer hardware
+C
+
+Which data structure is used for implementing recursion?
+Stack
+Queue
+List
+Array
+A
+
+What is the complexity of adding an element to the heap.
+O(log n)
+O(h)
+O(log n) & O(h)
+O(n)
+C
 
 Which algorithm is used in the top tree data structure?
 Backtracking
@@ -419,6 +419,146 @@ String
 Cord
 D
 
+Which one of the following is an application of Stack Data Structure?
+Managing function calls
+The stock span problem
+Arithmetic expression evaluation
+All of the above
+D
+
+Which algorithm is used in the top tree data structure?
+Backtracking
+Divide and Conquer
+Branch
+Greedy
+B
+
+How many child nodes does each node of Ternary Tree contain?
+4
+6
+5
+3
+D
+
+The optimal data structure used to solve Tower of Hanoi is _________
+Tree
+Heap
+Priority queue
+Stack
+D
+
+Which of the following is the simplest data structure that supports range searching?
+AA-trees
+K-d trees
+Heaps
+binary search trees
+C
+
+Which of the following is also known as Rope data structure?
+Linked List
+Array
+String
+Cord
+D
+
+Which type of data structure is a ternary heap?
+Hash
+Array
+Priority Stack
+Priority Queue
+D
+
+What is a data structure?
+A programming language
+A collection of algorithms
+A way to store and organize data
+A type of computer hardware
+C
+
+Which data structure is used for implementing recursion?
+Stack
+Queue
+List
+Array
+A
+
+What is the complexity of adding an element to the heap.
+O(log n)
+O(h)
+O(log n) & O(h)
+O(n)
+C
+
+Which one of the following is an application of Stack Data Structure?
+Managing function calls
+The stock span problem
+Arithmetic expression evaluation
+All of the above
+D
+
+Which algorithm is used in the top tree data structure?
+Backtracking
+Divide and Conquer
+Branch
+Greedy
+B
+
+How many child nodes does each node of Ternary Tree contain?
+4
+6
+5
+3
+D
+
+The optimal data structure used to solve Tower of Hanoi is _________
+Tree
+Heap
+Priority queue
+Stack
+D
+
+Which of the following is the simplest data structure that supports range searching?
+AA-trees
+K-d trees
+Heaps
+binary search trees
+C
+
+Which of the following is also known as Rope data structure?
+Linked List
+Array
+String
+Cord
+D
+
+Which type of data structure is a ternary heap?
+Hash
+Array
+Priority Stack
+Priority Queue
+D
+
+What is a data structure?
+A programming language
+A collection of algorithms
+A way to store and organize data
+A type of computer hardware
+C
+
+Which data structure is used for implementing recursion?
+Stack
+Queue
+List
+Array
+A
+
+What is the complexity of adding an element to the heap.
+O(log n)
+O(h)
+O(log n) & O(h)
+O(n)
+C
+
 Which algorithm is used in the top tree data structure?
 Backtracking
 Divide and Conquer
@@ -768,3 +908,143 @@ Array
 String
 Cord
 D
+
+Which one of the following is an application of Stack Data Structure?
+Managing function calls
+The stock span problem
+Arithmetic expression evaluation
+All of the above
+D
+
+Which algorithm is used in the top tree data structure?
+Backtracking
+Divide and Conquer
+Branch
+Greedy
+B
+
+How many child nodes does each node of Ternary Tree contain?
+4
+6
+5
+3
+D
+
+The optimal data structure used to solve Tower of Hanoi is _________
+Tree
+Heap
+Priority queue
+Stack
+D
+
+Which of the following is the simplest data structure that supports range searching?
+AA-trees
+K-d trees
+Heaps
+binary search trees
+C
+
+Which of the following is also known as Rope data structure?
+Linked List
+Array
+String
+Cord
+D
+
+Which type of data structure is a ternary heap?
+Hash
+Array
+Priority Stack
+Priority Queue
+D
+
+What is a data structure?
+A programming language
+A collection of algorithms
+A way to store and organize data
+A type of computer hardware
+C
+
+Which data structure is used for implementing recursion?
+Stack
+Queue
+List
+Array
+A
+
+What is the complexity of adding an element to the heap.
+O(log n)
+O(h)
+O(log n) & O(h)
+O(n)
+C
+
+Which one of the following is an application of Stack Data Structure?
+Managing function calls
+The stock span problem
+Arithmetic expression evaluation
+All of the above
+D
+
+Which algorithm is used in the top tree data structure?
+Backtracking
+Divide and Conquer
+Branch
+Greedy
+B
+
+How many child nodes does each node of Ternary Tree contain?
+4
+6
+5
+3
+D
+
+The optimal data structure used to solve Tower of Hanoi is _________
+Tree
+Heap
+Priority queue
+Stack
+D
+
+Which of the following is the simplest data structure that supports range searching?
+AA-trees
+K-d trees
+Heaps
+binary search trees
+C
+
+Which of the following is also known as Rope data structure?
+Linked List
+Array
+String
+Cord
+D
+
+Which type of data structure is a ternary heap?
+Hash
+Array
+Priority Stack
+Priority Queue
+D
+
+What is a data structure?
+A programming language
+A collection of algorithms
+A way to store and organize data
+A type of computer hardware
+C
+
+Which data structure is used for implementing recursion?
+Stack
+Queue
+List
+Array
+A
+
+What is the complexity of adding an element to the heap.
+O(log n)
+O(h)
+O(log n) & O(h)
+O(n)
+C

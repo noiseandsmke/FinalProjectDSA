@@ -398,3 +398,163 @@ String
 Cord
 D
 A
+
+Which one of the following is an application of Stack Data Structure?
+Managing function calls
+The stock span problem
+Arithmetic expression evaluation
+All of the above
+D
+A
+
+Which algorithm is used in the top tree data structure?
+Backtracking
+Divide and Conquer
+Branch
+Greedy
+B
+B
+
+How many child nodes does each node of Ternary Tree contain?
+4
+6
+5
+3
+D
+C
+
+The optimal data structure used to solve Tower of Hanoi is _________
+Tree
+Heap
+Priority queue
+Stack
+D
+D
+
+Which of the following is the simplest data structure that supports range searching?
+AA-trees
+K-d trees
+Heaps
+binary search trees
+C
+A
+
+Which of the following is also known as Rope data structure?
+Linked List
+Array
+String
+Cord
+D
+B
+
+Which type of data structure is a ternary heap?
+Hash
+Array
+Priority Stack
+Priority Queue
+D
+D
+
+What is a data structure?
+A programming language
+A collection of algorithms
+A way to store and organize data
+A type of computer hardware
+C
+D
+
+Which data structure is used for implementing recursion?
+Stack
+Queue
+List
+Array
+A
+D
+
+What is the complexity of adding an element to the heap.
+O(log n)
+O(h)
+O(log n) & O(h)
+O(n)
+C
+D
+
+Which one of the following is an application of Stack Data Structure?
+Managing function calls
+The stock span problem
+Arithmetic expression evaluation
+All of the above
+D
+A
+
+Which algorithm is used in the top tree data structure?
+Backtracking
+Divide and Conquer
+Branch
+Greedy
+B
+A
+
+How many child nodes does each node of Ternary Tree contain?
+4
+6
+5
+3
+D
+AA
+
+The optimal data structure used to solve Tower of Hanoi is _________
+Tree
+Heap
+Priority queue
+Stack
+D
+A
+
+Which of the following is the simplest data structure that supports range searching?
+AA-trees
+K-d trees
+Heaps
+binary search trees
+C
+A
+
+Which of the following is also known as Rope data structure?
+Linked List
+Array
+String
+Cord
+D
+A
+
+Which type of data structure is a ternary heap?
+Hash
+Array
+Priority Stack
+Priority Queue
+D
+A
+
+What is a data structure?
+A programming language
+A collection of algorithms
+A way to store and organize data
+A type of computer hardware
+C
+AA
+
+Which data structure is used for implementing recursion?
+Stack
+Queue
+List
+Array
+A
+A
+
+What is the complexity of adding an element to the heap.
+O(log n)
+O(h)
+O(log n) & O(h)
+O(n)
+C
+A
