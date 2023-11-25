@@ -84,6 +84,7 @@ public:
     void StudentExam(string, Node*);
     void Shuffling();
     void TakeExam();
+    void ReviewExam();
 };
 Chain::Chain()
 {
@@ -311,6 +312,7 @@ void Chain::TakeExam()
     getline(cin, student.id);
     cout << endl;
     exam.LoadQuests("exam.txt");
+    ClearFile("student.txt");
     Node* tmp = exam.first;
     for (int i = 1; i <= exam.len; i++)
     {
@@ -348,4 +350,28 @@ void Chain::TakeExam()
     student.mark = student.rightAns * 10.0 / exam.len;
     student.ShowInfor(exam.len);
     student.CheckPoint();
+}
+void Chain::ReviewExam()
+{
+    Chain exam;
+    exam.LoadQuests("exam.txt");
+    Node* tmp = exam.first;
+    for (int i = 1; i <= exam.len; i++)
+    {
+        if (i < 10)
+        {
+            cout << "Question 0" << i << " : " << tmp->data.quest << endl;
+        }
+        else
+        {
+            cout << "Question " << i << " : " << tmp->data.quest << endl;
+        }
+        cout << "A. " << tmp->data.A << endl;
+        cout << "B. " << tmp->data.B << endl;
+        cout << "C. " << tmp->data.C << endl;
+        cout << "D. " << tmp->data.D << endl;
+        cout << ">> Answer: " << tmp->data.ans << endl;
+        tmp = tmp->next;
+        cout << endl;
+    }
 }

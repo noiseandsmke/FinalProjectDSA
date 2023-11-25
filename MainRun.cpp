@@ -85,6 +85,7 @@ public:
     void StudentExam(string, Node*);
     void Shuffling();
     void TakeExam();
+    void ReviewExam();
 };
 Chain::Chain()
 {
@@ -312,6 +313,7 @@ void Chain::TakeExam()
     getline(cin, student.id);
     cout << endl;
     exam.LoadQuests("exam.txt");
+    ClearFile("student.txt");
     Node* tmp = exam.first;
     for (int i = 1; i <= exam.len; i++)
     {
@@ -350,6 +352,31 @@ void Chain::TakeExam()
     student.ShowInfor(exam.len);
     student.CheckPoint();
 }
+void Chain::ReviewExam()
+{
+    Chain exam;
+    exam.LoadQuests("exam.txt");
+    Node* tmp = exam.first;
+    for (int i = 1; i <= exam.len; i++)
+    {
+        if (i < 10)
+        {
+            cout << "Question 0" << i << " : " << tmp->data.quest << endl;
+        }
+        else
+        {
+            cout << "Question " << i << " : " << tmp->data.quest << endl;
+        }
+        cout << "A. " << tmp->data.A << endl;
+        cout << "B. " << tmp->data.B << endl;
+        cout << "C. " << tmp->data.C << endl;
+        cout << "D. " << tmp->data.D << endl;
+        cout << ">> Answer: " << tmp->data.ans << endl;
+        tmp = tmp->next;
+        cout << endl;
+    }
+}
+
 void GenerateExam()
 {
     cout << "+----------------------------------+" << endl;
@@ -365,6 +392,14 @@ void GenerateExam()
     cout << "+----------------------------------+" << endl;
     cout << "|      GENERATING EXAM DONE!!      |" << endl;
     cout << "+----------------------------------+" << endl;
+}
+void ReviewLastesExam()
+{
+    cout << "+----------------------------------+" << endl;
+    cout << "|TEACHER IS REVIEW THE LASTEST EXAM|" << endl;
+    cout << "+----------------------------------+" << endl;
+    Chain quest;
+    quest.ReviewExam();
 }
 void AddQuestion()
 {
@@ -443,8 +478,9 @@ void TeacherOption()
     cout << "|      CHOOSE TEACHER'S OPTION     |" << endl;
     cout << "+----------------------------------+" << endl;
     cout << "|  1. Generate a random exam.      |" << endl;
-    cout << "|  2. Add a question.              |" << endl;
-    cout << "|  3. Review student exam.         |" << endl;
+    cout << "|  2. Review lastest random exam.  |" << endl;
+    cout << "|  3. Add a question to database.  |" << endl;
+    cout << "|  4. Review student exam result.  |" << endl;
     cout << "+----------------------------------+" << endl;
     cout << ">> Enter your choice: ";
     int option; cin >> option;
@@ -455,9 +491,12 @@ void TeacherOption()
         GenerateExam();
         break;
     case 2:
-        AddQuestion();
+        ReviewLastesExam();
         break;
     case 3:
+        AddQuestion();
+        break;
+    case 4:
         ReviewResult();
         break;
     default:
@@ -490,7 +529,6 @@ void ReviewingExam()
 }
 void StudentOption()
 {
-    Chain trackingExam; // keep track student exam
     cout << "+----------------------------------+" << endl;
     cout << "|      CHOOSE STUDENT'S OPTION     |" << endl;
     cout << "+----------------------------------+" << endl;
@@ -548,6 +586,7 @@ void WelcomeMessage()
         }
     }
 }
+
 int main()
 {
     WelcomeMessage();
