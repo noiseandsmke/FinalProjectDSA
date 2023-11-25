@@ -94,7 +94,7 @@ void ReviewResult()
 void TeacherOption()
 {
     cout << "+----------------------------------+" << endl;
-    cout << "|      CHOSE TEACHER'S OPTION      |" << endl;
+    cout << "|      CHOOSE TEACHER'S OPTION     |" << endl;
     cout << "+----------------------------------+" << endl;
     cout << "|  1. Generate a random exam.      |" << endl;
     cout << "|  2. Add a question.              |" << endl;
@@ -146,7 +146,7 @@ void StudentOption()
 {
     Chain trackingExam; // keep track student exam
     cout << "+----------------------------------+" << endl;
-    cout << "|      CHOSE STUDENT'S OPTION      |" << endl;
+    cout << "|      CHOOSE STUDENT'S OPTION     |" << endl;
     cout << "+----------------------------------+" << endl;
     cout << "|  1. Taking exam.                 |" << endl;
     cout << "|  2. Review exam.                 |" << endl;
@@ -173,7 +173,7 @@ void WelcomeMessage()
     {
         cout << "+----------------------------------+" << endl;
         cout << "|   Welcome to the Quiz Program!   |" << endl;
-        cout << "|      CHOSE YOUR MODE BELOW       |" << endl;
+        cout << "|      CHOOSE YOUR MODE BELOW      |" << endl;
         cout << "+----------------------------------+" << endl;
         cout << "|      1. Teacher                  |" << endl;
         cout << "|      2. Student                  |" << endl;

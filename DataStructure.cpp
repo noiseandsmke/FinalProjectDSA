@@ -267,6 +267,7 @@ void Chain::DisplayResult()
             {
                 cout << "WRONG! GOOD LUCK!" << endl;
             }
+            cout << endl;
             tmp = tmp->next;
         }
     }
@@ -308,6 +309,7 @@ void Chain::TakeExam()
     getline(cin, student.name);
     cout << "Enter your ID: ";
     getline(cin, student.id);
+    cout << endl;
     exam.LoadQuests("exam.txt");
     Node* tmp = exam.first;
     for (int i = 1; i <= exam.len; i++)
@@ -327,6 +329,12 @@ void Chain::TakeExam()
         string ans;
         cout << ">> Answer [UPPER CASE]: ";
         getline(cin, ans);
+        while (ans < "A" || ans > "D")
+        {
+            cout << "INVALID ANSWERS!! PLEASE ANSWER AGAIN." << endl;
+            cout << ">> Answer [UPPER CASE]: ";
+            getline(cin, ans);
+        }
         tmp->data.studentAns = ans;
         if (ans == tmp->data.ans)
         {
@@ -334,6 +342,7 @@ void Chain::TakeExam()
         }
         StudentExam("student.txt", tmp);
         tmp = tmp->next;
+        cout << endl;
     }
     student.time = GetRealTime();
     student.mark = student.rightAns * 10.0 / exam.len;
